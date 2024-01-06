@@ -1,0 +1,54 @@
+.contact-footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-container {
+    padding: 7.5rem 8rem 3.75rem 8rem;
+    grid-template-columns: 2fr 1fr;
+    place-content: center;
+}
+
+.footer-description {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    color: #ccc;
+}
+
+.contact-list li {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 1.875rem;
+}
+
+.contact-list li a {
+    color: #1e870d;
+}
+
+.footer-copy {
+    grid-column: 1 / -1;
+    font-size: 1.125rem;
+    color: #8f8f8f;
+}
+
+@media (max-width: 1150px) {
+    .contact-list li {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 3.75rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+}

@@ -1,0 +1,182 @@
+.academics-section {
+    background: #141414;
+    color: #fff;
+    padding: 5rem;
+    position: relative;
+}
+
+.academics-section::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36.8125rem;
+    height: 1.5rem;
+    background: url("/public/img/Detail Footer.svg") no-repeat center center;
+    bottom: -.75rem;
+}
+
+.academics-container {
+    grid-template-columns: 2fr 1fr;
+}
+
+.section-title {
+    order: 999;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.academics {
+    color: #292929;
+    max-width: 50ch;
+    text-align: center;
+}
+
+.tools-icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.tools-icons img {
+    width: 1.25rem;
+}
+
+.academics-description {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 45ch;
+    margin-bottom: 3.75rem;
+    color: #a3a3a3;
+}
+
+.academics-description strong {
+    color: #fff;
+}
+
+.backgrounds {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-bottom: 3.75rem;
+}
+
+.backgrounds-item {
+    flex: 1;
+    max-width: min-content;
+    background-color: #000;
+    padding: 1.25rem;
+    border-radius: .25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.backgrounds-role {
+    font-size: .875rem;
+    text-transform: uppercase;
+    color: #a3a3a3;
+    margin-bottom: .625rem;
+    position: relative;
+}
+
+.backgrounds-role::after {
+    content: "";
+    width: .875rem;
+    height: 1.6875rem;
+    background: url("/public/img/Detail Backgrounds.svg") no-repeat;
+    position: absolute;
+    top: -1.25rem;
+    right: -.5rem;
+}
+
+.backgrounds-course {
+    flex: 1;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 2.5rem;
+}
+
+.backgrounds-institute {
+    font-size: 1.125rem;
+    color: #a3a3a3;
+}
+
+.extra-academics {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+
+.extra-title {
+    font-size: .875rem;
+    line-height: 1.4;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 1.875rem;
+    position: relative;
+}
+
+.extra-academics h3::before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: -2.625rem;
+    top: -.25rem;
+}
+
+.courses li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses h3::before {
+    background: url("/public/img/Book Icon.svg") no-repeat center center;
+}
+
+.languages h3::before {
+    background: url("/public/img/Language Icon.svg") no-repeat center center;
+}
+
+.extra-academics li {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
+}
+
+.extra-academics span {
+    color: #8f8f8f;
+}
+
+@media (max-width: 800px) {
+    .academics-container {
+        grid-template-columns: 1fr;
+        padding: 3.75rem 1.25rem;
+        gap: 2.5rem;
+    }
+
+    .section-title {
+        order: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .academics {
+        color: #fff;
+    }
+
+    .academics-description {
+        font-size: 1.25rem;
+        max-width: initial;
+    }
+
+    .academics-section::after {
+        width: 18rem;
+        height: .5rem;
+        bottom: -.25rem;
+    }
+}

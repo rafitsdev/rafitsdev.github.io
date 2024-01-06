@@ -1,0 +1,119 @@
+.intro {
+    align-items: center;
+    padding: 3rem 1.25rem 2rem 1.5rem;
+}
+
+.landing {
+    position: relative;
+    padding: 2rem;
+    margin-left: -1.6rem;
+}
+
+.landing::before {
+    content: "";
+    width: 4rem;
+    height: 4.0625rem;
+    display: block;
+    background: url("/public/img/Detail Bottom.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    top: -2rem;
+}
+
+.landing::after {
+    content: "";
+    width: 4rem;
+    height: 4.0625rem;
+    display: block;
+    background: url("/public/img/Detail Top.svg") no-repeat;
+    position: absolute;
+    left: -4rem;
+    bottom: -2rem;
+}
+
+.intro-title {
+    font-size: 4rem;
+    line-height: 1.125;
+    margin-bottom: 1.875rem;
+}
+
+.intro-description {
+    font-size: 1.125rem;
+    color: #646464;
+}
+
+.detail {
+    color: #1c830b;
+}
+
+.hire-button {
+    position: relative;
+    font-size: 1.25rem;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background: linear-gradient(#31AB1D, #1C830B);
+    border-radius: .3125rem;
+}
+
+@media (max-width: 1000px) {
+    .landing {
+        margin-left: 0;
+    }
+
+    .intro-title {
+        font-size: 3rem;
+    }
+
+    .landing::before {
+        right: .7rem;
+        top: .7rem;
+    }
+
+    .landing::after {
+        left: -5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .intro {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+        padding: 5rem 1.25rem 4.5rem 1.25rem;
+    }
+
+    .landing {
+        margin-left: 0;
+    }
+
+    .intro-description {
+        position: relative;
+    }
+
+    .intro-description::after {
+        content: "";
+        width: .25rem;
+        height: 1.1875rem;
+        background: url("/public/img/Adornment.svg") no-repeat;
+        top: .1rem;
+        left: -1rem;
+        position: absolute;
+    }
+
+    .landing::after {
+        display: none;
+    }
+
+    .landing::before {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .intro {
+        grid-template-columns: 1fr;
+    }
+
+    .intro-profile {
+        display: none;
+    }
+}
