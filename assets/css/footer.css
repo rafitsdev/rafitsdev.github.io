@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: .875rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    width: 500px;
+  }
+
+  .footer-title {
+    font-size: 1rem;
+  }
+}
