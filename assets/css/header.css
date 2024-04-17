@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.header .header-profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.header .header-title {
+  font-family: 'Neue Machina', serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.header .header-information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header .header-information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-information .info-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: .5rem;
+  font-size: 1.175rem;
+}
+
+.header-information .info-item::before {
+  content: '';
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-right: .5rem;
+}
+
+.header-information .job::before {
+  background-image: url('../img/icons/job.svg');
+}
+
+.header-information .location::before {
+  background-image: url('../img/icons/location.svg');
+}
+
+.header-information .phone::before {
+  background-image: url('../img/icons/phone.svg');
+}
+
+.header-information .email::before {
+  background-image: url('../img/icons/email.svg');
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-areas:
+      "photo title"
+      "photo info"
+    ;
+  }
+
+  .header .header-profile-photo {
+    grid-area: photo;
+    margin: 0 auto;
+  }
+
+  .header .header-title {
+    grid-area: title;
+    text-align: start;
+    max-width: 210px;
+  }
+
+  .header .header-information {
+    grid-area: info;
+  }
+
+}

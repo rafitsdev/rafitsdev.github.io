@@ -1,0 +1,89 @@
+{
+  "name": "Rafael M Rodrigues",
+  "photo": "https://avatars.githubusercontent.com/u/66890808?v=4",
+  "job": "Desenvolvedor Front-End",
+  "location": "São Paulo - SP",
+  "phone": "(11) 95080-3308",
+  "email": "rafamrodrigues2001@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/rafitsdev/js-developer-portfolio/dinamic-data/assets/data/imgs/js.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/rafitsdev/js-developer-portfolio/dinamic-data/assets/data/imgs/react.png"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "https://raw.githubusercontent.com/rafitsdev/js-developer-portfolio/dinamic-data/assets/data/imgs/ts.png"
+      },
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/rafitsdev/js-developer-portfolio/dinamic-data/assets/data/imgs/nodejs.png"
+      },
+      {
+        "name": "MySQL",
+        "logo": "https://raw.githubusercontent.com/rafitsdev/js-developer-portfolio/dinamic-data/assets/data/imgs/mysql.png"
+      },
+      {
+        "name": "VS Code",
+        "logo": "https://raw.githubusercontent.com/rafitsdev/js-developer-portfolio/dinamic-data/assets/data/imgs/vscode.png"
+      }
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Story Telling",
+      "Criatividade",
+      "Flexibilidade",
+      "Colaboração",
+      "Resolução de Conflitos",
+      "Pensamento Crítico",
+      "Tomada de Decisão",
+      "Resiliência e Persuasão"
+    ]
+  },
+  "languages": [
+    "Português BR (Nativo)",
+    "Inglês (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Página de portfolio criada no curso de Formação da DIO",
+      "url": "https://github.com/rafitsdev/js-developer-portfolio",
+      "github": true
+    },
+    {
+      "name": "Site loja desenvolvido em Curso - UX Design & Front-End",
+      "url": "https://github.com/rafitsdev/bikcraft",
+      "github": true
+    },
+    {
+      "name": "Projeto de formação da DIO para a criação de uma Pokedex",
+      "url": "https://github.com/rafitsdev/pokedex-project",
+      "github": true
+    },
+    {
+      "name": "Site fictício desenvolvido para demonstração de designs responsivos - Mobile First Design",
+      "url": "https://github.com/rafitsdev/WildBeast",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "event": "CPDO SPM Week Correios",
+      "title": "Palestrante Convidado",
+      "period": "16 - 17/08 de 2023",
+      "challenge": "Visita realizada como cortesia do Desafio de Inovação apresentado na Campus Party, para apresentação de produto criado no Hackathon (Fast Cep) para a Equipe de CPDO dos Correios e para conhecer as instalações da Sede dos Correios de Jaguaré. Participação de workshops e palestras de startups e empresas parceiras dos Correios.",
+      "developedProject": ""
+    },
+    {
+      "event": "Campus Party São Paulo 2023 - Cerrado Geeks",
+      "title": "1º Lugar Hackathon Correios - UX/UI Designer",
+      "period": "Agosto - 2023",
+      "challenge": "Como universalizar a codificação postal em nível de logradouro para realizar novos projetos com maior agilidade, assertividade e menor dependência de insumos de órgãos externos aos Correios. Utilizamos a base nacional de geolocalização para conseguir mapear todas as vias, e assim, gerar CEPs a partir de Inteligência Artificial seguindo todos os parâmetros",
+      "developedProject": "Usar a base nacional de geolocalização para conseguir mapear todas as vias, e assim, gerar CEPs a partir de Inteligência Artificial seguindo todos os parâmetros"
+    }
+  ]
+}
